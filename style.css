@@ -1,0 +1,122 @@
+
+*:focus {outline:none !important}
+html{
+  overflow: hidden;
+}
+
+/*BASIC CSS*/
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*NAVBAR STYLING*/
+nav{
+  float: right;
+  margin-top: -188px;
+  margin-right: 10px;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 10px;
+}
+
+a:hover{text-decoration: underline;}
+
+#sign-in{
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+/* FORM SEARCH STYLING*/
+.container
+{
+  width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form{
+  text-align: center;
+  margin-top: 180px;
+}
+
+img{
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+input{
+  width: 40vw;
+  height: 5vh;
+  border-radius: 45px 44px 44px 44px;
+  font-size: 15px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+  border: solid 1px #999;
+}
+
+input:hover{
+  border: solid 2px #999;
+}
+
+button{
+  margin: 11px;
+  height: 3vh;
+  background: #fff;
+  border: #eee 1px solid;
+  text-align: center; 
+}
+
+button:hover{
+  background-color: white;
+  border: solid 2px #999;
+}
+
+/* FOOTER STYLING*/
+footer{
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  position: fixed; 
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;  
+}
+
+footer ul li{
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul{
+  float: left;
+  padding: 1px;
+} 
+
+footer ul a:hover{
+  text-decoration: underline;
+}
+  
+.footer-right{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
